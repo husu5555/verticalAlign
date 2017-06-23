@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        .par {
+            width: 1%;
+            height: 600px;
+            background-color: #ccc;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .content {
+            width: 200px;
+            background-color: #00a0e9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="par">
+        <div class="content">
+            dispaly:table-cell之后,相当于浏览器解析后, 给这个div加一个父级div 属性是table-row 再加上一个父级div 属性是table,所以说既然是table中的cell,就相当于一个td 有td一般属性:同行等高, 元素的垂直居中vertical-align:middle这个属性就有效果
+        </div>
+    </div>
+</body>
+
+</html>
